@@ -66,7 +66,41 @@ body,html{
      padding-left: 100px;
  }
 
-p {
+ #hero-p {
     padding-left: 100px;
 
+}
+
+.flex-container {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 100px;
+  
+}
+
+.box {
+  width: 200px;
+  height:200px;
+  border: 1px solid black;
+  border-radius: 20px;
+  flex: 1;
+}
+
+body {
+
+  margin:0px;
+  padding:0px;
+}
+
+.card {
+
+  padding: 0px;
+}
+
+section {
+
+  margin: 10px;
+  align-items: center;
 }
