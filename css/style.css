@@ -206,3 +206,11 @@ main {
   margin-left: 100px;
 
 }
+
+footer  {
+
+  text-align: center;
+  background-color: #1f2937;
+  height: 100px;
+  padding-top: 50px;
+}
