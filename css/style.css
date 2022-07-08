@@ -14,7 +14,7 @@ body,html{
     padding: 2px;
     float: left;
     margin-top: 2%;
-    font-family: 'Roboto', cursive;
+    font-family: 'Roboto', sans-serif;
     color: #38b6ff;
     margin-left: 2%;
   
@@ -59,18 +59,49 @@ body,html{
   #hero-text {
       width: 50%;
       display: inline-block;
+      }
       
-      
+   #hero-text h2 {
 
-  }
+    color: white;
+   } 
+
+   p#quote-thor {
+
+    font-size: 20px;
+    font-weight: bold;
+   }
+
+   div.card p {
+
+    padding-left: 0px;
+   }
 
  h2 {
      padding-left: 100px;
+     font-family: 'Roboto', sans-serif;
+     
  }
+
+p#quote {
+
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+}
+  
+
 
  #hero-p {
     padding-left: 100px;
 
+}
+
+p#hero-p {
+
+  font-family: 'Roboto', sans-serif;
+  color: white;
 }
 
 .flex-container {
@@ -123,6 +154,7 @@ section p {
   padding: 10%;
   align-items: center;
   display: block;
+  font-family: 'Roboto', sans-serif;
   
 }
 
@@ -227,4 +259,9 @@ footer  {
   display: inline-block;
   margin-left: 200px;
   background-color: grey;
+}
+
+div.card {
+
+  
 }
